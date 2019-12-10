@@ -1,0 +1,289 @@
+﻿* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    padding-left: 27%;
+    padding-right: 1%;
+    line-height: 1.8em;
+}
+aside {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    bottom: 0;
+    background-color: #262f3d;
+    overflow: hidden;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 4px 0 8px rgba(0,0,0,.28);
+    max-width: 400px;
+}
+nav {
+    margin: auto;
+    width: 100%;
+}
+menu {
+    padding: 0;
+    margin: 25px 0;
+    width: 100%;
+    background-color: #19212b;
+    padding-left: 10px;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+}
+    menu a {
+        display: block;
+        color: #999;
+        line-height: 49px;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+        menu a.active {
+            font-size: 1.4em;
+            color: #fff !important;
+        }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+h1 {
+    color: #003049;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-size: 2em;
+}
+h2 {
+    color: #003049;
+    font-family: Quicksand, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+h3 {
+    color: #003049;
+    margin-top: 40px;
+    font-size: 1.3em;
+}
+h4 {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+h5 {
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 25px;
+}
+h6 {
+    font-size: 1em;
+    color: #666;
+}
+ul{
+    margin: 0;
+}
+li {
+    margin-bottom: 8px;
+}
+i {
+    font-size: 1.2em;
+}
+
+#profile {
+    border: 1px solid #999;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+    #profile img {
+        width: 200px;
+    }
+#latitle {
+    font-family: Quicksand, sans-serif;
+    font-size: 55px;
+    letter-spacing: 2px;
+    padding-right: 7px;
+}
+#artitle {
+    font-family: Cairo, sans-serif;
+    font-weight: 300;
+    font-size: 55px;
+}
+#intro {
+    margin-bottom: 20px;
+}
+#email {
+    color: #666;
+}
+#linked {
+    height: 30px;
+    padding-right: 30px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #000;
+}
+#in {
+    color: #0077B5;
+    font-size: 1.3em;
+}
+#pdf {
+    color: #000;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.section {
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    padding: 40px 15px;
+    border-bottom: 1px solid #ccc;
+    overflow-x: hidden;
+}
+.auto {
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+    width: 100%;
+}
+.experience {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.details {
+    font-size: 0.8em;
+    background-color: #F5F5F5;
+    padding: 8px;
+    -webkit-transition: height 2s;
+    transition: height 2s;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.summary {
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #679436;
+    line-height: 40px;
+    padding-left: 15px;
+}
+.highlight {
+    margin: 20px 0;
+    background-color: #FFFFBC;
+    padding: 8px 8px 8px 12px;
+    font-style: italic;
+}
+.logo {
+    float: right;
+    width: 150px;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    vertical-align: top;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+    td:first-child {
+        font-weight: bold;
+        background-color: #F5F5F5;
+        border-bottom: 5px solid #fff;
+        width: 30%;
+        text-align: right;
+    }
+.academy-badge img {
+    max-width: 100%;
+}
+.tool {
+    display: inline-block;
+    margin: 5px 3px;
+}
+
+    .tool img {
+        height: 50px;
+    }
+.reco {
+    margin-bottom: 30px;
+    background-color: #F5F5F5;
+    border: 1px solid #eee;
+    padding: 10px 10px 10px 80px;
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 15px;
+}
+.nowrap{
+    white-space: nowrap;
+}
+.sub{
+    font-size: 0.8em;
+}
+
+#aui {
+    border-bottom: none;
+}
+#boujdaa{
+    background-image: url(img/boujdaa.jpg);
+}
+#fadili {
+    background-image: url(img/fadili.jpg);
+}
+#hiernaux {
+    background-image: url(img/hiernaux.jpg);
+}
+#taha {
+    background-image: url(img/taha.jpg);
+}
+#stitou {
+    background-image: url(img/stitou.png);
+}
+@media (max-width: 772px) {
+    body {
+        padding-left: 60px;
+    }
+    aside {
+        width: 56px;
+    }
+    menu span{
+        display: none;
+    }
+    #profile {
+        border: 1px solid rgba(255,255,255,.3);
+        width: 50px;
+        height: 50px;
+    }
+    #profile img {
+        width: 50px;
+    }
+}
+@media (max-width: 550px) {
+    body{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 1.8em;
+    }
+    .logo{
+        display: none;
+    }
+    .section{
+        padding: 30px 5px;
+    }
+    #latitle{
+        font-size: 40px;
+    }
+    #artitle {
+        font-size: 45px;
+    }
+}
